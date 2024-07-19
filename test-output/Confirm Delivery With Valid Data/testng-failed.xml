@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Confirm Delivery With Valid Data]">
+  <listeners>
+    <listener class-name="oniesoft.api.reporting.TestStatusListener"/>
+  </listeners>
+  <test thread-count="5" name="org.oniesoft.tests.OrderTest.DeliveredOrderWithValidData(failed)">
+    <parameter name="strParams" value=""/>
+    <classes>
+      <class name="org.oniesoft.tests.OrderTest">
+        <methods>
+          <include name="DeliveredOrderWithValidData" invocation-numbers="0"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- org.oniesoft.tests.OrderTest -->
+    </classes>
+  </test> <!-- org.oniesoft.tests.OrderTest.DeliveredOrderWithValidData(failed) -->
+</suite> <!-- Failed suite [Confirm Delivery With Valid Data] -->

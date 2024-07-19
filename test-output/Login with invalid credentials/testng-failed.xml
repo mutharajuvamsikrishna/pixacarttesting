@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Login with invalid credentials]">
+  <listeners>
+    <listener class-name="oniesoft.api.reporting.TestStatusListener"/>
+  </listeners>
+  <test thread-count="5" name="org.oniesoft.tests.LoginTest.testLoginWithInvalidCreds(failed)">
+    <parameter name="strParams" value=""/>
+    <classes>
+      <class name="org.oniesoft.tests.LoginTest">
+        <methods>
+          <include name="init"/>
+          <include name="testLoginWithInvalidCreds" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- org.oniesoft.tests.LoginTest -->
+    </classes>
+  </test> <!-- org.oniesoft.tests.LoginTest.testLoginWithInvalidCreds(failed) -->
+</suite> <!-- Failed suite [Login with invalid credentials] -->

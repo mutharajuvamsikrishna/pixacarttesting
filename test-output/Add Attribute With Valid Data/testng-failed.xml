@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Add Attribute With Valid Data]">
+  <listeners>
+    <listener class-name="oniesoft.api.reporting.TestStatusListener"/>
+  </listeners>
+  <test thread-count="5" name="org.oniesoft.tests.ProductsTest.addAttributeInProductsWithValidDate(failed)">
+    <parameter name="strParams" value=""/>
+    <classes>
+      <class name="org.oniesoft.tests.ProductsTest">
+        <methods>
+          <include name="init"/>
+          <include name="addAttributeInProductsWithValidDate" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- org.oniesoft.tests.ProductsTest -->
+    </classes>
+  </test> <!-- org.oniesoft.tests.ProductsTest.addAttributeInProductsWithValidDate(failed) -->
+</suite> <!-- Failed suite [Add Attribute With Valid Data] -->
